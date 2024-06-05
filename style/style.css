@@ -1,0 +1,120 @@
+ body {
+     font-family: 'Arial', sans-serif;
+     color: #333;
+     margin: 0;
+     padding: 0;
+     height: 100%;
+ }
+
+ header {
+     background-color: #1343de;
+     color: #fff;
+     padding: 10px 20px;
+ }
+
+ .text {
+     overflow: hidden;
+ }
+.text a{
+    color: white;
+    text-decoration: none;
+}
+
+.text a:hover{
+    color: #000;
+}
+
+ .text h2,
+ .text h3 {
+     float: left;
+     margin-right: 20px;
+ }
+
+ .about-product {
+     float: right;
+ }
+
+ .text h3:last-of-type {
+     margin-right: 0;
+ }
+
+ .clear {
+     clear: both;
+ }
+
+ .product-description {
+     margin: 20px;
+     text-align: center;
+     padding: 10px;
+ }
+
+ .cta-button {
+     display: block;
+     width: 200px;
+     margin: 20px auto;
+     padding: 10px;
+     background-color: #1343de;
+     ;
+     color: #fff;
+     text-align: center;
+     text-decoration: none;
+     border: none;
+     border-radius: 8px;
+ }
+
+ .products {
+     position: relative;
+     text-align: center;
+     padding: 50px 0;
+ }
+
+ .product-card {
+     display: inline-block;
+     width: 400px;
+     margin: 0 auto;
+     padding: 0 70px;
+ }
+
+ .contact {
+     background-color: #eee;
+     padding: 20px;
+     clear: both;
+ }
+
+ .contact h3 {
+     padding: 15px;
+     width: 170px;
+     margin: auto;
+     font-size: 20px;
+ }
+
+ .contact form {
+     width: 300px;
+     margin: auto;
+     font-size: 22px;
+     padding: 10px;
+ }
+
+ .contact label,
+ .contact input,
+ .contact textarea {
+     display: block;
+     width: 90%;
+     margin: 10px auto;
+ }
+
+ .contact input,
+ .contact textarea {
+     padding: 10px;
+ }
+
+ .contact button {
+     display: block;
+     padding: 10px;
+     background-color: #1343de;
+     color: #fff;
+     cursor: pointer;
+     width: 100%;
+     border: none;
+     border-radius: 8px;
+ }
