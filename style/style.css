@@ -86,6 +86,14 @@ header {
     height: auto; 
 }
 
+.product-card button{
+    background-color: #1343de;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
 .contact {
     background-color: #eee;
     padding: 2%;
