@@ -86,14 +86,18 @@ header {
     height: auto; 
 }
 
-.product-card button{
+.product-card a{
     background-color: #1343de;
     padding: 15px;
     color: white;
     border: none;
     border-radius: 10px;
+    text-decoration: none;
 }
 
+.button-container{
+    padding: 20px;
+}
 .contact {
     background-color: #eee;
     padding: 2%;

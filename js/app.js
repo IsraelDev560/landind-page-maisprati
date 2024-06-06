@@ -17,6 +17,17 @@ function closeResult() {
     var show = document.getElementById("result");
     show.style.display = "none";
 }
-function scrollToTop() {
-    window.scrollTo(0, 0);
+
+function recarregarPagina() {
+    window.location.reload(); 
 }
+
+
+window.onload = function () {
+
+    window.scrollTo({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+    });
+};
