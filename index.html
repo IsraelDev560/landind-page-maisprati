@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="imgs/computador-portatil.png" type="image/x-icon">
 </head>
 
-<body>
+<body onload="scrollToTop()">
     <header>
         <div class="text">
             <h3>
@@ -91,29 +91,7 @@
 
     <div id="overlay"></div>
     <div id="result">x</div>
-    <script>
-        function submitForm() {
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-            let show = document.getElementById("result");
-
-            var overlay = document.getElementById("overlay");
-            overlay.style.display = "block"; 
-            show.innerHTML = `<p>Obrigado por entrar em contato, ${name}!</p>
-                              <button class="btn-close" onclick="closeResult()">Fechar</button>`
-            show.style.display = "block"; 
-        }
-
-        function closeResult() {
-        var overlay = document.getElementById("overlay");
-        overlay.style.display = "none"; // Oculta o overlay
-        
-        var show = document.getElementById("result");
-        show.style.display = "none"; // Oculta a div de resultado
-    }
-    </script>
-
+    <script src="js/app.js"></script>
 </body>
 
 </html>
