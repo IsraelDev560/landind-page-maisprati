@@ -37,7 +37,11 @@
             para melhorar sua rotina.</p>
         <a href="#contact" class="cta-button">Saiba Mais</a>
     </div>
-
+    <hr>
+    <div class="section-product">
+        <h2>Produtos</h2>
+    </div>
+    
     <div class="products" id="products">
         <div class="product-card">
             <h2>Lenovo ‎82X5S00100 Ideapad - Notebook 1 R5-7520U 8GB 256GB SSD Linux 15.6", Cinza</h2>
@@ -69,7 +73,7 @@
             </a>
         </div>
     </div>
-
+   
     <section class="contact" id="contact">
         <h3>Entre em Contato</h3>
         <form id="contact-form">
@@ -83,13 +87,29 @@
         </form>
     </section>
 
+    <div id="overlay"></div>
+    <div id="result">x</div>
     <script>
         function submitForm() {
             var name = document.getElementById('name').value;
             var email = document.getElementById('email').value;
             var message = document.getElementById('message').value;
-            alert('Obrigado, ' + name + '! Sua mensagem foi enviada.');
+            let show = document.getElementById("result");
+
+            var overlay = document.getElementById("overlay");
+            overlay.style.display = "block"; 
+            show.innerHTML = `<p>Obrigado por entrar em contato, ${name}!</p>
+                              <button class="btn-close" onclick="closeResult()">Fechar</button>`
+            show.style.display = "block"; 
         }
+
+        function closeResult() {
+        var overlay = document.getElementById("overlay");
+        overlay.style.display = "none"; // Oculta o overlay
+        
+        var show = document.getElementById("result");
+        show.style.display = "none"; // Oculta a div de resultado
+    }
     </script>
 
 </body>
