@@ -21,8 +21,6 @@ function closeResult() {
 function recarregarPagina() {
     window.location.reload(); 
 }
-
-
 window.onload = function () {
 
     window.scrollTo({
