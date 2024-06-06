@@ -1,20 +1,21 @@
- body {
-     font-family: 'Arial', sans-serif;
-     color: #333;
-     margin: 0;
-     padding: 0;
-     height: 100%;
- }
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
- header {
-     background-color: #1343de;
-     color: #fff;
-     padding: 10px 20px;
- }
+header {
+    background-color: #1343de;
+    color: #fff;
+    padding: 10px 20px;
+}
 
- .text {
-     overflow: hidden;
- }
+.text {
+    overflow: hidden;
+}
+
 .text a{
     color: white;
     text-decoration: none;
@@ -24,133 +25,140 @@
     color: #000;
 }
 
- .text h2,
- .text h3 {
-     float: left;
-     margin-right: 20px;
- }
+.text h2,
+.text h3 {
+    float: left;
+    margin-right: 20px;
+    font-size: 1.2rem; 
+}
 
- .about-product {
-     float: right;
- }
+.about-product {
+    float: right;
+}
 
- .text h3:last-of-type {
-     margin-right: 0;
- }
+.text h3:last-of-type {
+    margin-right: 0;
+}
 
- .clear {
-     clear: both;
- }
+.clear {
+    clear: both;
+}
 
- .section-product{
+.section-product{
     text-align: center;
-    font-size: 25px;
- }
+    font-size: 1.5rem; 
+}
 
- .product-description {
-     margin: 20px;
-     text-align: center;
-     padding: 10px;
- }
+.product-description {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
 
- .cta-button {
-     display: block;
-     width: 200px;
-     margin: 20px auto;
-     padding: 10px;
-     background-color: #1343de;
-     color: #fff;
-     text-align: center;
-     text-decoration: none;
-     border: none;
-     border-radius: 8px;
- }
+.cta-button {
+    display: block;
+    width: 50%; 
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #1343de;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
 
- .products {
-     position: relative;
-     text-align: center;
-     padding: 50px 0;
- }
+.products {
+    position: relative;
+    text-align: center;
+    padding: 5% 0; 
+}
 
- .product-card {
-     display: inline-block;
-     width: 400px;
-     margin: 0 auto;
-     padding: 0 70px;
- }
+.product-card {
+    display: inline-block;
+    width: 80%; 
+    margin: 0 auto;
+    padding: 0 5%; 
+}
 
- .contact {
-     background-color: #eee;
-     padding: 20px;
-     clear: both;
- }
+.product-card img {
+    max-width: 100%; 
+    height: auto; 
+}
 
- .contact h3 {
-     padding: 15px;
-     width: 170px;
-     margin: auto;
-     font-size: 20px;
- }
+.contact {
+    background-color: #eee;
+    padding: 2%;
+    clear: both;
+}
 
- .contact form {
-     width: 300px;
-     margin: auto;
-     font-size: 22px;
-     padding: 10px;
- }
+.contact h3 {
+    padding: 15px;
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+}
 
- .contact label,
- .contact input,
- .contact textarea {
-     display: block;
-     width: 90%;
-     margin: 10px auto;
- }
+.contact form {
+    width: 250px;
+    margin: auto;
+    font-size: 22px;
+    padding: 10px;
+}
 
- .contact input,
- .contact textarea {
-     padding: 10px;
- }
+.contact label,
+.contact input,
+.contact textarea {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
 
- .contact button {
-     display: block;
-     padding: 10px;
-     background-color: #1343de;
-     color: #fff;
-     cursor: pointer;
-     width: 100%;
-     border: none;
-     border-radius: 8px;
- }
+.contact input,
+.contact textarea {
+    padding: 10px;
+}
 
- #overlay {
+.contact button {
+    display: block;
+    padding: 10px;
+    background-color: #1343de;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+#overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-    z-index: 9998; /* Abaixo da div de resultado */
-    display: none; /* Inicialmente oculto */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9998;
+    display: none;
 }
 
- #result {
+#result {
     position: fixed;
     display: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    padding: 20px;
+    padding: 5%; 
     border: 1px solid #ccc;
     z-index: 9999;
 }
 
-.btn-close{
+.btn-close {
     background-color: red;
     color: white;
     font-weight: bold;
-    padding: 12px;
+    padding: 5%; 
     border: none;
     border-radius: 10px;
+    font-size: 1rem; 
 }
