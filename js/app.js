@@ -92,16 +92,10 @@ const displayCartItems = () => {
         quantityContainer.appendChild(itemQuantity);
         quantityContainer.appendChild(increaseButton);
 
-        let button = document.createElement('button');
-        button.innerText = 'Remover';
-        button.className = 'deleteButton';
-        button.onclick = () => deleteCartItems(index);
-
         itemElement.appendChild(itemImage);
         itemElement.appendChild(itemText);
         itemElement.appendChild(priceElement);
         itemElement.appendChild(quantityContainer);
-        itemElement.appendChild(button);
         div.appendChild(itemElement);
 
         totalQuantity += item.quantity;
@@ -119,13 +113,6 @@ const updateQuantity = (index, change) => {
         cartItems.splice(index, 1);
     }
 
-    localStorage.setItem('cartItems', JSON.stringify(cartItems));
-    displayCartItems();
-}
-
-const deleteCartItems = (index) => {
-    let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
-    cartItems.splice(index, 1);
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
     displayCartItems();
 }
@@ -163,3 +150,4 @@ const displayOpenCartButton = () => {
 }
 
 displayOpenCartButton();
+
