@@ -1,0 +1,36 @@
+{
+    "promocoes": {
+        "Segunda": {
+            "PcGamer": {
+                "titulo": "PC GAMER RYZEN 5 5600GT, 16GB DDR4 3200MHZ, SSD M.2 NVME 500GB, VEGA 7, FONTE 500W",
+                "imagem": "./imgs/promocoes/ryzen55600gt.jpg",
+                "preco": "R$2.589,99",
+                "descricao": "Desconto imperdível em PCs Gamer."
+            }
+        },
+        "Quarta": {
+            "PcGamer": {
+                "titulo": "PC Gamer ITX Arena, Ryzen 5 5600G, Radeon™ Graphics Vega 7, 16GB Ram, SSD 480GB, Gabinete RGB",
+                "preco": "R$2.399,00",
+                "imagem": "./imgs/promocoes/itxarena.jpg",
+                "descricao": "Oferta especial para a Quarta-feira."
+            }
+        },
+        "Sexta": {
+            "PcGamer": {
+                "titulo": "Pc Gamer Computador Cpu Ryzen 5 5600G / SSD 1TB M.2 NVMe / 16gb Memória Ram Ddr4 / Windows 11 Pro",
+                "imagem": "./imgs/promocoes/ryzen55600g.jpg",
+                "preco": "R$2.699,90",
+                "descricao": "Desconto especial na Sexta-feira."
+            }
+        },
+        "Domingo": {
+            "PcGamer": {
+                "titulo": "PC GAMER HERTZ® RYZEN 7 5700X WATER COOLER 240MM 32GB SSD 1TB RTX 4060 8GB GABINETE GAMER",
+                "imagem": "./imgs/promocoes/hertz75700x.jpg",
+                "preco": "R$6.980,00",
+                "descricao": "Desconto imperdível no Domingo."
+            }
+        }
+    }
+}

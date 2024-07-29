@@ -30,23 +30,18 @@ header {
     color: #000;
 }
 
-.text h2,
-.text h3 {
-    float: left;
-    margin-right: 20px;
+.text{
+    display: flex;
+    justify-content: space-between;
     font-size: 1.2rem; 
 }
 
 .about-product {
-    float: right;
+    display: inline-flex;
 }
 
-.text h3:last-of-type {
-    margin-right: 0;
-}
-
-.clear {
-    clear: both;
+.about-product h3 a {
+    padding: 10px;
 }
 
 .section-product{
@@ -110,6 +105,11 @@ header {
 .button-container{
     padding: 20px;
 }
+
+.button-container button{
+    margin-left: 10px;
+}
+
 .contact {
     background-color: #eee;
     padding: 2%;
@@ -175,6 +175,155 @@ header {
     padding: 5%; 
     border: 1px solid #ccc;
     z-index: 9999;
+}
+
+main{
+    text-align: center;
+}
+
+.imagem-produto{
+    max-width: 100%; 
+    height: auto; 
+   
+}
+
+#list:hover {
+    box-shadow: 0 10px 16px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.new-products{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 30%; 
+    margin: 1.5%;
+    padding: 0 2%; 
+}
+
+.new-products button{
+    background-color: #1343de;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.new-products button:hover{
+    background-color: #112566;
+}
+
+.product-price{
+    color: green;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#list{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+#cartItems {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    position: relative;
+}
+
+#cartItems p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+
+.about-product button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+
+#cartItems .deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#cartItems .deleteButton:hover {
+    background-color: #c82333;
+}
+
+#cartItems img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+}
+
+#setItem{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-buttons button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.itemQuantity{
+    margin: 0 10px;
+}
+
+.decreaseButton{
+    font-size: 22px;
+   
+}
+
+.increaseButton{
+    font-size: 20px;
+  
+}
+
+#cartTotal {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
 }
 
 .btn-close {
