@@ -23,3 +23,9 @@
 - Escolha uma paleta de cores harmoniosa e fontes apropriadas.
 
 
+### ATUALIZAÇÃO
+#### Nova branch chamada `refactor`
+- para acessa-la basta dar o seguinte comando `git checkout refactor`
+
+#### Implementadas algumas melhorias como ajax, e local storage.
+

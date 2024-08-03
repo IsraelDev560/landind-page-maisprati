@@ -140,14 +140,5 @@ const displayCartTotal = (totalQuantity, totalPrice) => {
     div.appendChild(totalDiv);
 }
 
-const displayOpenCartButton = () => {
-    let openButton = document.createElement('button');
-    openButton.innerText = 'Abrir Carrinho';
-    openButton.className = 'openButton';
-    openButton.onclick = () => openCart();
-
-    document.body.appendChild(openButton);
-}
-
 displayOpenCartButton();
 
