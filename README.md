@@ -8,18 +8,21 @@
 ---
 
 ## Descrição dos Exercícios
-#### OBJETIVO: Desenvolver uma landing page simples utilizando HTML, CSS e JavaScript.
+#### OBJETIVO: Aprimorar o projeto da atividade 03 com todo o conhecimento adquirido (e prévio, se houver). Faça o seu melhor.
 
-#### CONTEÚDO MÍNIMO DA LANDING PAGE:
+#### NOVAS FEATURES (NO MÍNIMO ESSAS):
 
-- Configure um repositório Git para o projeto.
-- Crie duas branches: uma principal (main) e outra de desenvolvimento (develop).
-- Um cabeçalho com o nome do projeto.
-- Uma breve descrição ou slogan.
-- Um botão de chamada para ação como "Saiba Mais" ou "Inscreva-se".
-- Uma seção de produtos e/ou serviços oferecidos.
-- Uma área de sobre/contato com um formulário simples (nome, email e mensagem).
-- Ação de botão de chamada para ação (por exemplo, exibir uma mensagem de agradecimento ou redirecionar para outra página, utilizando JS, claro).
-- Escolha uma paleta de cores harmoniosa e fontes apropriadas.
+- Crie uma branche adicional para o desenvolvimento dos novos recursos do projeto;
+- Reestruture a aplicação para que ela seja estruturada através de Grid e Flexbox;
+- Faça com que as transições sejam assíncronas através de: ajax, fetch e promises;
+- Adicione operações CRUD com o LocalStorage;
+- Responsividade completa.
+
+
+#### OPCIONAIS DIFERENCIAIS:
+- Uso de libs como Bootstrap, Tailwind, Angular e afins;
+- Tratativa de erros;
+- Dark mode;
+- Animações (Carousel, por exemplo);
 
 
