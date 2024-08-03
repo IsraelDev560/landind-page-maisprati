@@ -22,4 +22,8 @@
 - Ação de botão de chamada para ação (por exemplo, exibir uma mensagem de agradecimento ou redirecionar para outra página, utilizando JS, claro).
 - Escolha uma paleta de cores harmoniosa e fontes apropriadas.
 
+### ATUALIZAÇÃO
+#### Nova branch chamada `refactor`
+- para acessa-la basta dar o seguinte comando `git checkout refactor`
 
+#### Implementadas algumas melhorias como ajax, e local storage.
