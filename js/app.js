@@ -66,7 +66,7 @@ const displayCartItems = () => {
         itemImage.src = item.image;
 
         let itemText = document.createElement('span');
-        itemText.textContent = `${item.product} - `;
+        itemText.textContent = `${item.product} `;
 
         let priceElement = document.createElement('span');
         priceElement.textContent = `Preço: R$${item.price} `;
