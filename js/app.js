@@ -41,6 +41,7 @@ const addToCart = (product, price, image, quantity) => {
     }
 
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    alert(`Produto adicionado ao carrinho`)
     displayCartItems();
 }
 
@@ -139,6 +140,3 @@ const displayCartTotal = (totalQuantity, totalPrice) => {
     totalDiv.innerText = `Total de itens: ${totalQuantity} - Preço total: R$${totalPrice.toFixed(2)}`;
     div.appendChild(totalDiv);
 }
-
-displayOpenCartButton();
-
